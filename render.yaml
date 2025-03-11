@@ -1,5 +1,5 @@
 services:
-  - type: static
+  - type: static # Should work, but might need adjustment
     name: hoobank
     env: static
     buildCommand: npm run build
