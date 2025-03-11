@@ -1,13 +1,6 @@
 services:
-  - type: static # Should work, but might need adjustment
+  - type: web
     name: hoobank
-    env: static
+    env: node
     buildCommand: npm run build
-    staticPublishPath: dist
-    headers:
-      - path: "*.js"
-        name: Content-Type
-        value: text/javascript
-      - path: "*.css"
-        name: Content-Type
-        value: text/css
+    startCommand: npm start
