@@ -1,0 +1,13 @@
+services:
+  - type: static
+    name: hoobank
+    env: static
+    buildCommand: npm run build
+    staticPublishPath: dist
+    headers:
+      - path: "*.js"
+        name: Content-Type
+        value: text/javascript
+      - path: "*.css"
+        name: Content-Type
+        value: text/css
