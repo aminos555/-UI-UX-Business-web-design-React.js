@@ -13,7 +13,8 @@ Modern responsive business website design made with React and Tailwind CSS.
 - Testimonials section
 - Clients section
 - Call to action section
-- Footer
+- Footer![bussniss web UI](https://github.com/user-attachments/assets/ea53ede5-3581-4d35-8703-edafd4412728)
+
 
 ## Built With
 - React.js
